@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Paragraph from "@/components/Paragraph";
 
 export default function Home() {
-	return <main className="bg-red-600">Hello world</main>;
+  return (
+    <main className="bg-red-500">
+      <Paragraph size="default" />
+    </main>
+  );
 }
