@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark .three-d{
+  text-shadow: 0px 5px 0px #533519;
+}
+
+.three-d{
+  text-shadow: none;
+}
+
+.img-shadow{
+  width: 250px;
+  -webkit-filter: drop-shadow(5px 10px 5px #28281487);
+  filter: drop-shadow(5px 10px 5px #28281487);
+}
